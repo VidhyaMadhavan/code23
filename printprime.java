@@ -1,10 +1,13 @@
-import java.io.*;
+import java.util.*;
 class printprime
 {
 public static void main(String args[])
 {
-int count;
-for(int i=2;i<100;i++)
+Scanner sc=new Scanner(System.in);
+int count,n;
+System.out.print("range:");
+n=sc.nextInt();
+for(int i=2;i<n;i++)
 {
 count=0;
 for(int j=2;j<i;j++)
